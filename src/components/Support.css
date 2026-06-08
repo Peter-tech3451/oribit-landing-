@@ -1,0 +1,102 @@
+.support {
+  background: var(--white);
+  padding: 70px 60px;
+  text-align: center;
+}
+
+.support h2 {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 14px;
+}
+
+.support-sub {
+  font-size: 14px;
+  color: var(--text-muted);
+  max-width: 620px;
+  margin: 0 auto 36px;
+  line-height: 1.6;
+}
+
+.bank-card {
+  background: #1a1a1a;
+  color: white;
+  border-radius: 16px;
+  padding: 36px 48px;
+  max-width: 500px;
+  margin: 0 auto 24px;
+  text-align: center;
+}
+
+.bank-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.bank-desc {
+  font-size: 13px;
+  color: #aaaaaa;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.account-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.account-num {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.copy-btn {
+  background: none;
+  border: 1px solid #555;
+  color: #ccc;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.copy-btn:hover {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.btn-name {
+  background: var(--green);
+  color: white;
+  border: none;
+  padding: 11px 28px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.support-thanks {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+@media (max-width: 768px) {
+  .support {
+    padding: 50px 24px;
+  }
+  .bank-card {
+    padding: 28px 20px;
+  }
+}

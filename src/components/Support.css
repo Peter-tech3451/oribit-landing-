@@ -96,7 +96,80 @@
   .support {
     padding: 50px 24px;
   }
+
+  .section-title {
+    font-size: 24px;
+  }
+
+  .section-sub {
+    font-size: 13px;
+  }
+
   .bank-card {
     padding: 28px 20px;
+    max-width: 100%;
+  }
+
+  .account-row {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .support {
+    padding: 30px 16px;
+  }
+
+  .support h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .support-sub {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+
+  .bank-card {
+    padding: 20px 16px;
+    border-radius: 12px;
+    margin-bottom: 16px;
+  }
+
+  .bank-card h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .bank-desc {
+    font-size: 12px;
+    margin-bottom: 16px;
+  }
+
+  .account-row {
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+
+  .account-num {
+    font-size: 14px;
+    word-break: break-all;
+  }
+
+  .copy-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .btn-name {
+    width: 100%;
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+
+  .support-thanks {
+    font-size: 11px;
   }
 }

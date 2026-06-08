@@ -146,7 +146,83 @@
 }
 
 @media (max-width: 540px) {
+  .initiatives {
+    padding: 40px 16px;
+  }
+
+  .section-title {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .section-sub {
+    font-size: 13px;
+    margin-bottom: 24px;
+  }
+
+  .carousel-wrapper {
+    flex-direction: column;
+  }
+
   .cards-row {
     grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .carousel-btn {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .initiatives {
+    padding: 50px 24px;
+  }
+
+  .carousel-wrapper {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .cards-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .initiatives {
+    padding: 30px 16px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .section-sub {
+    font-size: 12px;
+  }
+
+  .cards-row {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card-img {
+    height: 140px;
+  }
+
+  .initiative-card h3 {
+    font-size: 14px;
+    min-height: 32px;
+  }
+
+  .initiative-card p {
+    font-size: 12px;
+  }
+
+  .carousel-btn {
+    display: none;
   }
 }

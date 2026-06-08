@@ -79,7 +79,70 @@
   .vision-mission {
     padding: 50px 24px;
   }
+
+  .vision-mission h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+
   .vm-card {
     padding: 24px;
+    max-width: 100%;
+  }
+
+  .vm-card h3 {
+    font-size: 15px;
+  }
+
+  .vm-card ol li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vision-mission {
+    padding: 30px 16px;
+  }
+
+  .vision-mission h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .vm-card {
+    padding: 16px;
+    border-radius: 10px;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .vm-card h3 {
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+
+  .vm-card ol li {
+    font-size: 13px;
+  }
+
+  .vision-block {
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
+  .vision-block h3 {
+    font-size: 14px;
+  }
+
+  .vision-block p {
+    font-size: 13px;
+  }
+
+  .values-label {
+    font-size: 14px;
+  }
+
+  .values-list {
+    font-size: 13px;
   }
 }

@@ -31,8 +31,17 @@ html {
 .app {
   width: min(100%, 1440px);
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .app > * {
   width: 100%;
+  overflow-x: hidden;
+}
+
+/* Ensure all body text is readable on mobile */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
 }
